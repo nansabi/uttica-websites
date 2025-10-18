@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Utica Pups Crew | Lhasa Apso Crossed Breeds</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">🐾 Utica Pups Crew</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#available">Available Puppies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Because every home deserves a loyal companion</h2>
+      <p>Find your furry friend with Utica Pups Crew. Healthy, playful, and ready to meet you!</p>
+      <a href="#available" class="btn-primary">View Puppies</a>
+    </div>
+    <div class="hero-images">
+      <img src="PPUPPY.jpg" alt="Girl with Puppy" class="hero-main">
+    </div>
+  </section>
+
+  <!-- AVAILABLE PUPPIES -->
+  <section id="available" class="available">
+    <div class="section-title">
+      <h2>Available Puppies</h2>
+      <p>Our Lhasa Apso crosses are playful, healthy, and ready to meet their new families!</p>
+    </div>
+
+    <div class="puppy-grid">
+      <div class="puppy-card" 
+           data-age="3 weeks" 
+           data-gender="Male" 
+           data-city="Thoothukudi" 
+           data-rate="₹1000" 
+           data-character="Playful, Friendly, Loves Attention">
+        <img src="PUP-1.jpg" alt="Puppy 1">
+        <h3>Lhasa Apso Cross</h3>
+        <p>Breed: Lhasa Apso</p>
+        <p>Character: Playful & Loving</p>
+      </div>
+
+      <div class="puppy-card" 
+           data-age="3 weeks" 
+           data-gender="Female" 
+           data-city="Thoothukudi" 
+           data-rate="₹1000" 
+           data-character="Gentle, Smart, Curious">
+        <img src="PUP-2.jpg" alt="Puppy 2">
+        <h3>Lhasa Apso Cross</h3>
+        <p>Breed: Lhasa Apso</p>
+        <p>Character: Gentle & Curious</p>
+      </div>
+
+      <div class="puppy-card" 
+           data-age="3 weeks" 
+           data-gender="Male" 
+           data-city="Thoothukudi" 
+           data-rate="₹1000" 
+           data-character="Energetic, Friendly, Loves Play">
+        <img src="PUP-3.jpg" alt="Puppy 3">
+        <h3>Lhasa Apso Cross</h3>
+        <p>Breed: Lhasa Apso</p>
+        <p>Character: Energetic & Playful</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="section-title">
+      <h2>Contact Us</h2>
+      <p>Interested in adopting a puppy or have questions? Send us a message!</p>
+    </div>
+    <div class="contact-box">
+      <form id="contact-form" action="https://formspree.io/f/mjkalnbo">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="contact-btn">📨 Send Message</button>
+      </form>
+      <p class="contact-info">Or email us directly at: <a href="mailto:info@uticapups.com">info@uticapups.com</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 Utica Pups Crew | Thoothukudi | All Rights Reserved.</p>
+  </footer>
+
+  <!-- POPUP -->
+  <div class="popup-container">
+    <div class="popup-box">
+      <span class="popup-close">&times;</span>
+      <h3 id="popup-title"></h3>
+      <p id="popup-character"></p>
+      <p id="popup-age"></p>
+      <p id="popup-gender"></p>
+      <p id="popup-city"></p>
+      <p id="popup-rate"></p>
+      <a href="mailto:info@uticapups.com" class="popup-btn">📨 Email to Adopt</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
